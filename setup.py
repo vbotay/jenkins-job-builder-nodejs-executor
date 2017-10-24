@@ -12,7 +12,7 @@ setup(
     entry_points={
         'jenkins_jobs.builders': [
             'nodejs = jenkins_jobs_nodejs_executor.nodejs:nodejs_executor']},
-    packages=['jenkins_jobs_stash_pr'],
+    packages=['jenkins_jobs_nodejs_executor'],
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
