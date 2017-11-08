@@ -1,7 +1,8 @@
 # jenkins-job-builder-nodejs-executor
 
 ## NB
-This plugin can be useless if this [request](https://review.openstack.org/#/c/514349/) is merged
+> This plugin can be useless if this [request](https://review.openstack.org/#/c/514349/) is merged
+> Starting with 2.0.0.0b3.dev334 you are not able to use this plugin. This functionality is presented in core of JJB
 ## Installation
 Install it in additional to installed [Jenkins Job Builder](https://github.com/openstack-infra/jenkins-job-builder)
 ```bash
